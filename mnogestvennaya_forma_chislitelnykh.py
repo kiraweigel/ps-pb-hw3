@@ -8,5 +8,7 @@ def plural_form (value, form1, form2, form3):
 
     elif (value % 10 == 0) or value in range(11,20):
         print(f'{value} {form3}')
+    return
 
 print(plural_form(22, 'яблоко', 'яблока', 'яблок'))
+
